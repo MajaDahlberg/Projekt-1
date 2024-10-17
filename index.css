@@ -89,7 +89,23 @@ a.button  {
     flex-direction: column;
 }
  
-#big_pic_1 {
-    max-height: 300px;
+.big_pictures {
+    width: 1000px;
+    box-shadow: 0px 0px 30px #e5e5e5;
 }
+
+#box_3_cred {
+    display: flex;
+}
+
+.faces_and_names {
+    display: flex;
+    margin:auto;
+}
+
+.faces { /*SÄTT CLASS PÅ BILDEN INTE DIVEN*/
+    height: 60px;
+}
+
+
 
