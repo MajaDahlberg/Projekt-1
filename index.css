@@ -84,28 +84,98 @@ a.button  {
     padding-bottom: 30px;
 }
 
-#box_3 {
+.box_3 {
     display: flex;
     flex-direction: column;
 }
- 
+
+
+
 .big_pictures {
     width: 1000px;
     box-shadow: 0px 0px 30px #e5e5e5;
 }
 
-#box_3_cred {
+.box_3_cred {
     display: flex;
 }
 
+
 .faces_and_names {
     display: flex;
-    margin:auto;
+    margin: auto;
 }
 
 .faces { /*SÄTT CLASS PÅ BILDEN INTE DIVEN*/
     height: 60px;
 }
 
+.above_big_pictures {
+
+}
 
 
+
+#box_4 {
+    border-top: 1px solid #e5e5e5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text_above_list {
+    
+}
+
+#list_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 800px;
+    background-color: #dbdbdb;
+    border-radius: 10px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.check {
+    height: 30px;
+}
+
+#line_between {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+#box_5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#emojis {
+    display: flex;
+    flex-direction: row;
+}
+
+#engineering {
+    border-right: 1px solid #e5e5e5;
+    padding-right: 30px;
+}
+
+#product {
+    padding-left: 35px;
+    padding-right: 30px;
+    border-right: 1px solid #e5e5e5;
+}
+
+#design {
+    padding-left: 30px;
+}
