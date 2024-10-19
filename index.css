@@ -247,4 +247,34 @@ footer {
     display: flex;
     flex-direction: column;
 }
+
+footer .barky {
+    padding: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#share {
+    display: flex;
+    height: 20px;
+    gap: 3px;
+}
+
+#links {
+    display: flex;
+    
+}
+
+.bold_p_footer {
+    font-weight: bold;
+}
+
+p {
+    color: #666666;
+}
+
+.many_links {
+    
+    
+
 }
