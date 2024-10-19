@@ -5,6 +5,7 @@
 
 body {
     font-family: Inter;
+    padding-top: 70px;
 }
 
 main {
@@ -13,15 +14,26 @@ main {
     flex-direction: column;
     margin: auto;
     margin-top: 50px;
+    
 }
 
 header {
     display: flex;
-    width: 100%;
-    justify-content: space-between;
+    gap: 15px;
     align-items: center;
+    justify-content: space-between;
     border-bottom: 1px solid #e5e5e5;
     padding-bottom: 5px;
+    position: fixed;
+    background-color: white;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 a {
@@ -32,7 +44,7 @@ a {
     font-size: 15px;
 }
 
-#barky {
+.barky {
    height: 25px;
    padding: 10px;
 }
@@ -50,11 +62,17 @@ a {
     padding-left: 25px;
 }
 
-a.button  {
+.button  {
     background-color: black;
     color: white;
     border-radius: 5px;
     box-shadow: 0px 0px 1px black;
+    padding: 0;
+    padding: 8px
+}
+
+.button:hover {
+    background-color:;
 }
 
 #box_1 {
@@ -123,9 +141,6 @@ a.button  {
     align-items: center;
 }
 
-.text_above_list {
-    
-}
 
 #list_box {
     display: flex;
@@ -178,4 +193,58 @@ a.button  {
 
 #design {
     padding-left: 30px;
+}
+
+#rating {
+
+}
+
+#text_in_rating {
+
+}
+
+#rating_picture {
+    height: 200px;
+}
+
+#link_in_text {
+    text-decoration: underline;
+}
+
+#badges {
+    display: flex;
+    
+}
+
+#procent {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.numbers {
+
+}
+
+#box_7 {
+    padding-bottom: 90px;
+}
+
+#line_between2 {
+    width: 100%;
+    border: 1px solid #e5e5e5;
+}
+
+footer {
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#barky_column {
+    display: flex;
+    flex-direction: column;
+}
 }
