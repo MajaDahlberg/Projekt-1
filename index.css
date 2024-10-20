@@ -224,17 +224,18 @@ nav a:hover{
     align-items: center;
 }
 
-.text_above_list {
+.text_above {
     text-align: center;
     width: 550px;
 }
 
-.text_above_list h2 {
+.text_above h2 {
     font-size: 34px;
     padding-top: 70px;
+    margin: 10px;
 }
 
-.text_above_list p {
+.text_above p {
     font-size: 15px;
     padding-bottom: 10px;
 }
@@ -283,34 +284,55 @@ nav a:hover{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 70px;
 }
 
 #emojis {
     display: flex;
     flex-direction: row;
     text-align: center;
+    justify-content: space-between;
+    gap: 5px; 
 }
 
 #emojis p {
-    font-size: 15.65px;
+    font-size: 16px;
+}
+
+#emojis a {
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+.vertical_border {
+    border-right: 1px solid #e5e5e5;
 }
 
 #engineering {
-    border-right: 1px solid #e5e5e5;
-    padding-right: 30px;
+    flex-basis: 0;
+    flex-grow: 2;
+    
 }
 
 #product {
-    padding-left: 35px;
-    padding-right: 30px;
-    border-right: 1px solid #e5e5e5;
+    flex-basis: 0;
+    flex-grow: 2;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 117px;
 }
 
 #design {
-    padding-left: 30px;
+    flex-basis: 0;
+    flex-grow: 2;
 }
 
 /*______box_6______*/
+
+#big_text h2 {
+    text-align: center;
+    font-size: 34px;
+}
 
 #rating {
 
