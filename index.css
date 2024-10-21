@@ -28,10 +28,10 @@ p {
     color: white;
     border-radius: 4px;
     box-shadow: 0px 0px 1px black;
-    padding: 0;
     padding: 8px;
     padding-left: 12px;
     padding-right: 12px;
+   
 }
 
 .button:hover {
@@ -40,7 +40,7 @@ p {
 
 .barky {
     height: 25px;
-    padding: 10px;
+    padding-right: 25px;
 }
 
 a {
@@ -70,7 +70,12 @@ header {
     top: 0;
     left: 0;
     right: 0;
-    padding: 10px;
+    padding-top: 12px;
+    padding-left: 0px;
+    padding-right: 5px;
+    padding-bottom: 12px;
+    margin-left: 8px;
+    margin-right: 8px;
 }
 
 #nav_left {
@@ -259,11 +264,15 @@ nav a:hover{
     margin: auto;
 }
 
+#top_row p {
+    color: black;
+}
+
 .features {
     display: flex;
     justify-content: space-between;
     border-top: 2px solid #e5e5e5;
-    width: 550px;
+    width: 570px;
     margin: auto;
 }
 
@@ -292,7 +301,8 @@ nav a:hover{
     flex-direction: row;
     text-align: center;
     justify-content: space-between;
-    gap: 5px; 
+    gap: 10px; 
+    
 }
 
 #emojis p {
@@ -329,21 +339,44 @@ nav a:hover{
 
 /*______box_6______*/
 
+#box_6 {
+    padding-bottom: 50px;
+}
+
 #big_text h2 {
     text-align: center;
     font-size: 34px;
+    padding-bottom: 10px;
 }
 
-#rating {
-
-}
 
 #text_in_rating {
-
+   display: flex;
+   flex-direction: column;
+   width: 450px;
+   justify-content: center;
 }
 
+#text_in_rating h3 {
+    font-size: 22px;
+    font-weight: 800;
+    padding-bottom: 10px;
+    margin: 0;
+}
+
+#text_in_rating p {
+    color: black;   
+    padding: 0;
+    margin: 0;
+}
+
+#text_in_rating a {
+    padding: 3px;
+}
+
+
 #rating_picture {
-    height: 200px;
+    height: 190px;
 }
 
 #link_in_text {
@@ -352,22 +385,60 @@ nav a:hover{
 
 #badges {
     display: flex;
-    
+    justify-content: space-around;
+    padding-bottom: 20px;
 }
 
 #procent {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    text-align: center;
+    height: 120px;
+    gap: 10px;
+}
+
+.vertical_border_box_6 {
+    border-right: 1px solid #e5e5e5;
+    height: 90px;
 }
 
 .numbers {
+    font-size: 26px;
+    color: #666666;
+    width: 25%;
+}
 
+.numbers h1 {
+    padding: 0;
+    margin: 0;
+}
+
+.numbers p {
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
 }
 
 /*______box_7______*/
 
 #box_7 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding-bottom: 90px;
+}
+
+#text_box_7 h2{
+    padding: 0;
+    margin: 0;
+    padding-top: 10px;
+}
+
+#text_box_7 p {
+    padding: 0;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 24px;
 }
 
 #line_between2 {
@@ -375,50 +446,61 @@ nav a:hover{
     border: 1px solid #e5e5e5;
 }
 
-
-/*______________________________main________________________________*/
+/*_____________________________footer_______________________________*/
 
 footer {
     max-width: 1200px;
     display: flex;
     justify-content: space-evenly;
     margin: auto;
-    padding-top: 50px;
+    padding-top: 60px;
     padding-bottom: 50px;
 }
 
 #barky_column {
     display: flex;
     flex-direction: column;
+    width: 250px;
 }
 
+#barky_column p {
+    color: black;
+    font-size: 12.5px;
+}
 
 footer .barky {
     padding: 0;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 25px;
+    height: 32px;
 }
 
 #share {
     display: flex;
     height: 20px;
-    gap: 3px;
+    gap: 8px;
+    padding-bottom: 40px;
 }
 
-#links {
-    display: flex;
-    
-}
 
 .bold_p_footer {
     font-weight: bold;
+    color: black;
+    margin: 0;
+    font-size: 13px;
 }
 
 
 .many_links {
-    
-    
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    gap: 7px;
+}
 
+.many_links a {
+    padding-left: 0;
+    color: #666666;
+    font-size: 13px;
 }
 
 footer a:hover {
