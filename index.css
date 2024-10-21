@@ -652,4 +652,14 @@ footer a:hover {
         display: none;
     }
 
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .many_links {
+        flex-direction: ;
+    }
+
+
 }
