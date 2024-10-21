@@ -1,6 +1,5 @@
 
 /*_____________________general________________________*/
-
 @font-face {
     font-family: "Inter";
     src: url("material/Inter.ttf");
@@ -55,13 +54,10 @@ a {
     border-bottom: 1px solid #e5e5e5;
 }
 
-
 /*______________________header_________________________*/
-
 header {
     display: flex;
     width: 100vw;
-    gap: 15px;
     align-items: center;
     justify-content: space-between;
     border-bottom: 1px solid #e5e5e5 ;
@@ -96,7 +92,6 @@ header {
     align-items: center;
 }
 
-
 #small_border {
     border-right: 2px solid #e5e5e5;
     padding-left: 12px;
@@ -113,11 +108,9 @@ nav a:hover{
     border-radius: 4px;
 }
 
-
 /*______________________________main________________________________*/
 
 /*_____box_1_____*/
-
 #box_1 {
     display: flex;
     align-items: center;
@@ -139,17 +132,13 @@ nav a:hover{
 }
 
 /*______box_2______*/
-
-
-
 .small_brands {
     display: flex;
     padding-top: 30px;
     padding-bottom: 30px;
     justify-content: center;
     gap: 30px;
-    flex-wrap: wrap;
-    
+    flex-wrap: wrap; 
 }
 
 .small_brands img {
@@ -162,11 +151,9 @@ nav a:hover{
 }
 
 /*______box_3______*/
-
 .box_3 {
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column;  
 }
 
 .above_big_pictures {
@@ -186,8 +173,7 @@ nav a:hover{
 
 .big_pictures {
     max-width: 1000px;
-    box-shadow: 0px 0px 30px #e5e5e5;
-    
+    box-shadow: 0px 0px 30px #e5e5e5;  
 }
 
 .quote {
@@ -200,18 +186,15 @@ nav a:hover{
     display: flex;
 }
 
-
 .faces_and_names {
     display: flex;
     margin: auto;
     align-items: center;
-
 }
 
 .faces { 
     margin-right: 10px;
-    width: 45px;
-    
+    width: 45px; 
 }
 
 .names {
@@ -231,9 +214,7 @@ nav a:hover{
     margin-top: 3px;
 }
 
-
 /*______box_4______*/
-
 #box_4 {
     display: flex;
     flex-direction: column;
@@ -299,7 +280,6 @@ nav a:hover{
 }
 
 /*______box_5______*/
-
 #box_5 {
     display: flex;
     flex-direction: column;
@@ -312,8 +292,7 @@ nav a:hover{
     flex-direction: row;
     text-align: center;
     justify-content: space-between;
-    gap: 10px; 
-    
+    gap: 10px;   
 }
 
 #emojis p {
@@ -349,7 +328,6 @@ nav a:hover{
 }
 
 /*______box_6______*/
-
 #box_6 {
     padding-bottom: 50px;
 }
@@ -359,7 +337,6 @@ nav a:hover{
     font-size: 34px;
     padding-bottom: 10px;
 }
-
 
 #text_in_rating {
    display: flex;
@@ -430,7 +407,6 @@ nav a:hover{
 }
 
 /*______box_7______*/
-
 #box_7 {
     display: flex;
     flex-direction: column;
@@ -457,11 +433,9 @@ nav a:hover{
 }
 
 /*_____________________________footer_______________________________*/
-
 footer {
     max-width: 1200px;
     display: flex;
-    
     justify-content: space-evenly;
     margin: auto;
     padding-top: 60px;
@@ -499,14 +473,12 @@ footer .barky {
     padding-bottom: 40px;
 }
 
-
 .bold_p_footer {
     font-weight: bold;
     color: black;
     margin: 0;
     font-size: 13px;
 }
-
 
 .many_links {
     display: flex;
@@ -525,17 +497,16 @@ footer a:hover {
     text-decoration: underline;
 }
 
-
 /*____________________mediaqueries__________________*/
-
 #hamburger {
     display: none;
-    padding: 5px;
 }
 
-
 @media (max-width: 600px) {
-   
+    body {
+        padding: 0;
+    }
+
     main {
         max-width: 600px;
         width: 100%;
@@ -550,8 +521,7 @@ footer a:hover {
         border: none;
         position: unset;
         right: 0;
-        left: 0;
-        
+        left: 0;  
     }
 
     #nav_left, #nav_right {
@@ -584,8 +554,6 @@ footer a:hover {
         display: flex;
         flex-direction: column;
     }
-
-    
 
     .above_big_pictures {
         text-align: center;
@@ -645,7 +613,6 @@ footer a:hover {
         font-size: 13.8px;
     }
 
-
     #rating_picture {
         padding-top: 20px;
     }
@@ -665,6 +632,7 @@ footer a:hover {
     footer {
         display: flex;
         flex-direction: column;
+        margin-left: 10px;
     }
 
     #barky_column {
@@ -680,15 +648,10 @@ footer a:hover {
     .many_links {
         display: flex;
         flex-direction: column;
-        width: 180px;
-        gap: 8px;
+        width: 200px;
+        gap: 7px;
         flex-grow: 1;
         padding-bottom: 20px;
     }
-
-
-    
-
-
 
 }
