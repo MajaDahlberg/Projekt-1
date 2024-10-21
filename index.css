@@ -621,4 +621,35 @@ footer a:hover {
         display: none;
     }
 
+    #badges {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #text_in_rating h3 {
+        font-size: 20px;
+    }
+
+    #text_in_rating p, a{
+        font-size: 13.8px;
+    }
+
+
+    #rating_picture {
+        padding-top: 20px;
+    }
+
+    #procent {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+        padding-top: 10px;
+    }
+
+    .vertical_border_box_6 {
+        display: none;
+    }
+
 }
