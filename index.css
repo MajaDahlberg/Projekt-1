@@ -306,7 +306,7 @@ nav a:hover{
 }
 
 #emojis p {
-    font-size: 16px;
+    font-size: 17px;
 }
 
 #emojis a {
@@ -321,7 +321,7 @@ nav a:hover{
 #engineering {
     flex-basis: 0;
     flex-grow: 2;
-    
+    padding-right: 10px;
 }
 
 #product {
@@ -329,12 +329,12 @@ nav a:hover{
     flex-grow: 2;
     padding-left: 10px;
     padding-right: 10px;
-    width: 117px;
 }
 
 #design {
     flex-basis: 0;
     flex-grow: 2;
+    padding-left: 10px;
 }
 
 /*______box_6______*/
