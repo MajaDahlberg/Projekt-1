@@ -17,7 +17,6 @@ main {
     flex-direction: column;
     margin: auto;
     margin-top: 50px;
-    overflow: hidden; 
 }
 
 p {
@@ -66,7 +65,6 @@ header {
     align-items: center;
     justify-content: space-between;
     border-bottom: 1px solid #e5e5e5 ;
-    padding-bottom: 5px;
     position: fixed;
     background-color: white;
     top: 0;
@@ -98,9 +96,6 @@ header {
     align-items: center;
 }
 
-nav a {
-    padding: 8px;
-}
 
 #small_border {
     border-right: 2px solid #e5e5e5;
@@ -145,12 +140,20 @@ nav a:hover{
 
 /*______box_2______*/
 
+
+
 .small_brands {
     display: flex;
-    height: 25px;
     padding-top: 30px;
+    padding-bottom: 30px;
     justify-content: center;
     gap: 30px;
+    flex-wrap: wrap;
+    
+}
+
+.small_brands img {
+    height: 30px;
 }
 
 #small_brands_2 {
@@ -184,6 +187,7 @@ nav a:hover{
 .big_pictures {
     max-width: 1000px;
     box-shadow: 0px 0px 30px #e5e5e5;
+    
 }
 
 .quote {
@@ -457,16 +461,24 @@ nav a:hover{
 footer {
     max-width: 1200px;
     display: flex;
+    
     justify-content: space-evenly;
     margin: auto;
     padding-top: 60px;
     padding-bottom: 50px;
 }
 
+#all_links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+}
+
 #barky_column {
     display: flex;
     flex-direction: column;
     width: 250px;
+    margin-left: 0px;
 }
 
 #barky_column p {
@@ -532,16 +544,11 @@ footer a:hover {
         margin-top: 50px;
     }
 
-    footer {
-    
-    }
-
     header {
         padding-top: 0px;
         padding-bottom: 0;
         border: none;
         position: unset;
-        
         right: 0;
         left: 0;
         
@@ -578,6 +585,8 @@ footer a:hover {
         flex-direction: column;
     }
 
+    
+
     .above_big_pictures {
         text-align: center;
         margin: auto;
@@ -585,8 +594,9 @@ footer a:hover {
 
     .big_pictures {
         display: flex;
-        max-height: 320px;
+        max-height: 300px;
         margin: auto;
+        box-shadow: 0px 0px 30px #e5e5e5;
     }
 
     .faces_and_names {
@@ -657,9 +667,28 @@ footer a:hover {
         flex-direction: column;
     }
 
-    .many_links {
-        flex-direction: ;
+    #barky_column {
+        padding-bottom: 15px;
     }
+
+    #all_links {
+        display: flex;
+        flex-direction: row;
+        gap: 0px;
+    }
+
+    .many_links {
+        display: flex;
+        flex-direction: column;
+        width: 180px;
+        gap: 8px;
+        flex-grow: 1;
+        padding-bottom: 20px;
+    }
+
+
+    
+
 
 
 }
