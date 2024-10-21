@@ -573,4 +573,31 @@ footer a:hover {
         max-height: 300px;
     }
 
+    .above_big_pictures {
+        text-align: center;
+        margin: auto;
+    }
+
+    .big_pictures {
+        display: flex;
+        max-height: 320px;
+        margin: auto;
+    }
+
+    .faces_and_names {
+        width: 245px;
+        margin: auto;
+    }
+
+    .names h6 {
+        font-size: 12px;
+    }
+
+    .names p {
+        font-size: 11px;
+    }
+
+    .quote {
+        font-size: 19px;
+        max-width: 600px;
 }
